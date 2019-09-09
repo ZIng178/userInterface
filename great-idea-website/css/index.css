@@ -1,0 +1,160 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+.container{
+	width: 90%;
+	margin: 5rem;
+}
+.navbar a {
+	margin: 20px;
+	display: inline;
+	padding: 40px;
+	text-decoration:none;
+	font-size: 16px;
+}
+.main{
+	margin: 2%;
+	
+}
+.circle{
+	display:inline-block;
+	width:55%;
+}
+button{
+	background:white;
+}
+.main .left{
+	
+	font-size: 50px;
+	display: inline-block;
+	padding: 40px;
+	margin-bottom: 5px;
+	width: 43%;
+}
+.main .left button{
+	margin: 60px;
+	border: 1px solid black;
+	vertical-align: center;
+	width: 43%;
+
+}
+.IOD{
+	font-size: 70px;
+	padding:1%;
+	margin-top: 5%;
+	vertical-align: center;
+}
+	.main .first {
+	vertical-align: center;
+	display: inline-block;	
+	width: 43%;
+	padding: 30px;
+	
+}
+.mid{
+	display: inline;
+	width: 80%;
+
+}
+.mid div{
+	width: 450px;
+	height: 90px;
+	margin: 10px;
+	padding: 40px;
+	display:inline-block;
+	
+}
+.middle-img{
+ margin: 20px;
+ padding: 30px;
+}
+.Mid{
+	width: 80%;
+}
+.Mid div{
+	width: 250px;
+	height: 2px;
+	margin-left:30px; 
+	padding: 20px;
+	display:inline-block;
+}
+.footer {
+	width: 80%;
+	margin: 20px;
+	padding: 20px;
+}
+.footer span h5{
+	color: red;
+	
+	
+}
+.copyright{
+	display:inline-block;
+	position:center;
+	margin-left:45%;
+}
+
+
